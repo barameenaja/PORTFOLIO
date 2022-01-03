@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+    background-color: rgb(255, 222, 179);
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: peru;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.tap{
+    font-size: 1.5rem;
+    padding: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(231, 198, 154);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    transition: .3s ease;
+}
+nav ul li a:hover{
+    color: darkgray;
+}
+.img1{
+    font-size: 10px;
+    width: 10%;
+
+}
+
+@media screen and (max-width: 900px ) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .tap{
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 10;
+    }
+    .port{
+        margin-top: 50px;
+        padding: 15px ;
+        position: fixed;
+        background-color: peru;
+        width: 100%;
+    }
+    .port1{
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+    }
+    nav ul{
+        width: 45%;
+        display: none;        
+        flex-direction: column;
+        transition: .3 ease;
+        position: fixed;
+        margin-top: 251px; margin-left: 55%;
+        background-color: peru;
+    }
+    .nav-active{
+        display: flex;
+        position: fixed;
+    }
+    ul li a{
+        display: flex;
+        justify-content: left;
+
+    }   
+    /*div*/
+    .container{
+        margin: 10px;
+        padding: 10px;
+        margin-top: 50px;
+        z-index: 0;
+    }
+
+    /* nav bar 2*/
+    .tap1{
+        display: block;
+        position: fixed;
+        top: 5px;
+        left: 10px;
+        z-index: 20;
+        font-size: 1.5rem;
+        padding: 10px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: burlywood;
+    }
+    .nav1{
+        flex-direction: column;
+        width: 70%;
+        height: 600px;
+        position: fixed;
+        margin-top: 600px;
+    }
+    .container1{
+        position: fixed;
+        width: 60%;
+        height: 2000px;
+        background-color: peru;
+        right: 40%;
+        
+    }
+    #con-1 img{
+        width: 80px;
+        position: absolute;
+        left: 85px;
+        top: 50px;
+        border-radius: 20px;
+    }
+    #con1 {
+        background-color: peru;
+        width: 50px;
+        height: 50px;
+    }
+    #con-2{
+        position: absolute;
+        top: 175px;
+        width: 300px;
+    }
+    #con-2-1{
+        color: rgb(234, 223, 236);
+        position: absolute;
+        left: 50px;    
+    }
+    #con-2-2{
+        position: absolute;
+        top: 197px;
+        font-size: 13.5px;
+        left: 19px;        
+    }
+    #con-2-3{
+        position: absolute;
+        top: 300px;
+        font-size: 13.5px;
+        left: 19px;   
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .container1-2{
+        display: none;
+        position: fixed;
+    }
+    /* div con*/
+    #container-infomation{
+        font-size: 40px;
+    }
+    .flex1{
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px;
+    }
+    .box-box-1{
+        width: 100px;
+        padding: 10px; padding-bottom: 1px;
+    }
+    .box-box-2{
+        padding-top: 21px;
+        text-align: center;
+        color: peru;
+    }
+    .flex2{
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-name{
+        padding-left: 13px; padding-bottom: 40px;
+        color: rgb(126, 123, 123);
+    }
+    .date{
+        color:rgb(104, 101, 101);
+        display: flex;
+        flex-direction: column;
+    }
+    .date-1{
+        display: flex;
+        margin-bottom: 2.5px;
+        font-size: 17px;
+    }
+    .date-2{
+        display: flex;
+        margin-bottom: 2.5px;
+        font-size: 17px;
+    }
+    .date-3{
+        display: flex;
+        margin-bottom: 2.5px;
+        font-size: 17px;
+    }
+    .date-4{
+        display: flex;
+        margin-bottom: 2.5px;
+        font-size: 17px;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .flex-3{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 80%;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 3rem;
+    }
+    .fb{
+        color: rgb(59, 55, 55);
+    }
+    .fb:hover{
+        color: peru;
+    }
+    
+    
+    .container12{
+        margin: 10px;
+        padding: 10px;
+        margin-top: 20px;
+        z-index: 0;
+    }
+    .interests{
+        text-align: center;
+        color: peru;
+        display: flex;
+        padding-top: 11.25px; padding-left: 10px;
+    }
+    .interests12{
+        padding-left: 10px;
+    }
+    .interests1{
+        display: flex;
+        padding-top: 40px; padding-bottom: 40px;
+        font-size: 17px;
+    }
+
+    .educ{
+        display: flex;
+        padding-top: 40px;
+    }
+    .educ1{
+        color:rgb(104, 101, 101);
+    }
+    .educ2{
+        display: flex;
+        padding-top: 20px; padding-bottom: 20px;
+        font-size: 17px;
+        color:rgb(138, 131, 131);
+    }
+    .educ3{
+        display: flex;
+        padding-top: 0px; padding-bottom: 10px;
+        font-size: 17px;
+        color:rgb(138, 131, 131);
+    }
+    .educ4{
+        display: flex;
+        padding-top: 20px; padding-bottom: 5px;
+        font-size: 17px;
+        color:rgb(138, 131, 131);
+    }
+    .educ5{
+        display: flex;
+        padding-top: 5px; padding-bottom: 40px;
+        font-size: 17px;
+        color: peru;
+    }
+    .award1{
+        display: flex;
+        padding-left: 20px; 
+
+    }
+    .award{
+        font-size: 25px;
+        color: goldenrod;
+    }    
+    .award2{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .skill1{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-5{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 30%;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 3rem;
+    }
+}
+
+
+ 
+
+
+
+
+
+
+
+
